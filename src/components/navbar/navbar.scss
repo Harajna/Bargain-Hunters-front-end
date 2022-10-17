@@ -1,0 +1,121 @@
+
+.navbar {
+  height: 50px;
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+  display: flex;
+  align-items: end;
+  font-size: 14px;
+  color: #555;
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+
+    .items {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+      .item {
+        display: flex;
+        // align-items: center;
+        margin-right: 20px;
+        position: relative;
+
+        .icon {
+          font-size: 20px;
+        }
+
+        .avatar {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+
+      }
+    }
+  }
+}
+
+.sticky {
+  margin-bottom: 5px !important ;
+  position: sticky !important;
+  top: 0;
+  width: 100%;
+
+}
+
+
+  // // Because flex properties aren't inherited, we need to redeclare these first
+  // // few properties so that content nested within behave properly.
+  // // The `flex-wrap` property is inherited to simplify the expanded navbars
+  // %container-flex-properties {
+  //   display: flex;
+  //   flex-wrap: inherit;
+  //   align-items: center;
+  //   background-color: aqua;
+  //   background-color: inherit;
+  //   justify-content: space-between;
+  // }
+
+  //   .navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+
+  
+
+// .navbar > .container-xl
+// {
+//   display: flex;
+//   // flex-wrap: inherit;
+//   //  align-items: end;
+// // width:50px;
+// // height: 50px;;
+//   background-color: red;
+ 
+  
+//   // justify-content: space-between;
+// }
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+// @media screen maximu {
+  
+// }
+
+#categories{
+  margin: auto 50px ;
+  // background-color: aqua;
+}
+ @media only screen and (max-width: 991px){
+  
+.navbar > .container-fluid,
+.navbar > .container-sm, 
+.navbar > .container-md, 
+.navbar > .container-lg,
+.navbar > .container
+ 
+
+{
+// display: flex;
+// flex-wrap: inherit;
+// align-items: center;
+padding: 0;
+background-color: #212529;
+}
+
+#categories{
+  margin: auto ;
+  // background-color: aqua;
+}
+
+}
+

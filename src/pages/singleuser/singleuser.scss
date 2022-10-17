@@ -1,0 +1,29 @@
+#hammoud{
+    display: flex;
+    flex-direction: row;
+    // width: fit-content;
+    // margin: center;
+    justify-content: center;
+    // padding: 20px auto 20px auto;
+    margin-left: 20% ;
+    margin-right: 20% ;
+    
+    // justify-content: space-around;
+    align-items: center;
+    
+    background-color: rgba(255, 228, 196, 0.417);
+}
+.info{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    padding:  0 10px 0 40px;
+    align-items: center;    
+    // margin-top: 20px;
+}
+.deleteBtn{
+    // margin: auto;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+}
